@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "go-faster",
+	"version": "${version}",
+	"name": "Go Faster",
+	"description": "Some semi-useful speed related stuff.",
+	"authors": [
+		"LEYN1092"
+	],
+	"contact": {
+
+	},
+	"license": "MIT",
+	"icon": "assets/go-faster/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"net.leyn.gofaster.GoFaster"
+		],
+		"modmenu": [
+			"net.leyn.gofaster.integration.ModMenu"
+		]
+	},
+	"mixins": [
+		"go-faster.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "*",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
