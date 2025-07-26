@@ -8,7 +8,7 @@
 		"LEYN1092"
 	],
 	"contact": {
-
+		"sources": "https://github.com/Leyn-pl/GoFaster"
 	},
 	"license": "MIT",
 	"icon": "assets/go-faster/icon.png",
